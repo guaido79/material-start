@@ -4,7 +4,9 @@ typings/
 dist/
 logs/
 tmp/
-typings.json
 .DS_Store
 .idea
 !.gitkeep
+app/src/**/*.js
+app/src/**/*.js.map
+app/bower_components

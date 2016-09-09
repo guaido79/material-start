@@ -1,5 +1,5 @@
 // Load the TypeScript UsersService
-import {UsersDataService} from './services/users-data.service.ts';
+import {UsersDataService} from './services/users-data.service';
 
 // Define our User interface
 export interface User {

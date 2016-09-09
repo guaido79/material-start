@@ -1,4 +1,4 @@
-import {User} from "../../users.ts";
+import {User} from "../../users";
 
 /**
  * User Details Component
@@ -48,8 +48,7 @@ export class UserDetailsComponent {
       templateUrl: 'src/users/components/user-details/user-contact-sheet.html',
       controller: UserSheetController,
       controllerAs: "$ctrl",
-      bindToController: true,
-      targetEvent: $event
+      
     };
 
     this.$mdBottomSheet.show(config).then((clickedItem) => {

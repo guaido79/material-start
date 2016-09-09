@@ -8,11 +8,11 @@ import 'angular-material';
 import 'angular-messages';
 import 'angular-sanitize';
 
-import {AppComponent} from "../components/start-app/start-app.component.ts";
-import {UsersListComponent} from "../users/components/users-list/users-list.component.ts";
-import {UserDetailsComponent} from "../users/components/user-details/user-details.component.ts";
+import {AppComponent} from "../components/start-app/start-app.component";
+import {UsersListComponent} from "../users/components/users-list/users-list.component";
+import {UserDetailsComponent} from "../users/components/user-details/user-details.component";
 
-import {Users} from '../users/users.ts';
+import {Users} from '../users/users';
 
 module MaterialStart {
   "use strict";
